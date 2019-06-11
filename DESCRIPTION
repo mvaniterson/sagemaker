@@ -1,0 +1,18 @@
+Package: sagemaker
+Type: Package
+Title: R mars for AWS SageMaker
+Version: 0.1.0
+Authors@R: person("Maarten", "van Iterson", email =
+ "maarten.van.iterson@randstadgroep.nl", role = c("aut", "cre"))
+Description: Bring R's mars algorithm to AWS SageMaker.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+  jsonlite,
+  mda,
+  plumber,
+  stats
+Suggests: 
+    testthat
+RoxygenNote: 6.1.1
